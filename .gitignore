@@ -5,6 +5,12 @@
 # Salesforce cache
 .sfdx/
 
+# LWC VSCode autocomplete
+jsconfig.json
+
+# LWC Jest coverage reports
+coverage/
+
 # Logs
 logs
 *.log
@@ -26,4 +32,6 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
-index.html
+
+# VS Code project settings
+.vscode/
