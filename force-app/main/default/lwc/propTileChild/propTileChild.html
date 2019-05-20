@@ -1,0 +1,14 @@
+<template>
+        <a href="#" onclick={handleClick}>
+                <div class="slds-is-relative">        
+                <img src={prop.Picture__c} alt="Name" />
+                <div style="position: center;color:black; background-color:transparent;width:-webkit-fill-available;left:0px;bottom:0px; text-align: center; font-family:serif; font-size:0.9em;">
+                <p>{prop.Name}</p>
+                <p>Beds::{prop.Beds__c}</p>
+                <p>Baths::{prop.Baths__c}</p> 
+                <p>Price::{prop.Price__c} </p>
+               
+                </div>
+               </div>
+       </a>       
+</template>

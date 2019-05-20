@@ -1,0 +1,62 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountsMapExample": [
+                "accountsMapExample/accountsMapExample.js"
+            ],
+            "c/auraPubsub": [
+                "auraPubsub/auraPubsub.js"
+            ],
+            "c/brokerCard": [
+                "brokerCard/brokerCard.js"
+            ],
+            "c/propList": [
+                "propList/propList.js"
+            ],
+            "c/propSum": [
+                "propSum/propSum.js"
+            ],
+            "c/propTileChild": [
+                "propTileChild/propTileChild.js"
+            ],
+            "c/propertyChild": [
+                "propertyChild/propertyChild.js"
+            ],
+            "c/propertyFilter": [
+                "propertyFilter/propertyFilter.js"
+            ],
+            "c/propertyFind": [
+                "propertyFind/propertyFind.js"
+            ],
+            "c/propertyFinderMap": [
+                "propertyFinderMap/propertyFinderMap.js"
+            ],
+            "c/propertyMain": [
+                "propertyMain/propertyMain.js"
+            ],
+            "c/propertyMap": [
+                "propertyMap/propertyMap.js"
+            ],
+            "c/propertyParent": [
+                "propertyParent/propertyParent.js"
+            ],
+            "c/propertyView": [
+                "propertyView/propertyView.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
